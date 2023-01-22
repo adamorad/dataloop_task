@@ -16,3 +16,4 @@ Second: Create the table in MySql
 
 Go and run your script now.
 
+<img width="995" alt="Screenshot 2023-01-22 at 11 59 57" src="https://user-images.githubusercontent.com/12186693/213910017-2491706c-9e1a-42a5-9579-f127cd158857.png">
