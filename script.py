@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import pandas as pd
@@ -17,7 +18,7 @@ def scrape(keyword='', size=10):
     url = 'https://api.flickr.com/services/rest'
     params = {  
         'method': 'flickr.photos.search',
-        'api_key': 'db6de4d465761dc89227abac63579fa5',
+        'api_key': os.environ['FLICKR_API_KEY'],
         'text': keyword,
         'per_page': size,
         'format': 'json',
